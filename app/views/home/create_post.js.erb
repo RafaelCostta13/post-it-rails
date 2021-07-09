@@ -1,0 +1,4 @@
+$("<%=  j (render 'message', message: @create)%>").appendTo("#message");
+$("#id_container_post").remove();
+$("<%=  j (render 'list_posts', posts: @posts)%>").appendTo("#posts");
+$('#modal').show();

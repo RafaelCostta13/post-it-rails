@@ -1,0 +1,7 @@
+<%= form_with(url: '/search/', method: :post, local: false)  do |format|%>
+	<div class="form-group">
+		<input class="form-control" type="text" name="id" placeholder="informe um id">
+	</div>
+	<button class="btn btn-primary mt-1">Pesquisar</button>
+<% end %>
+<%= link_to 'Todos os Post-it', '/', class: "btn btn-slate mt-2" %>

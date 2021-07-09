@@ -1,0 +1,10 @@
+<div id="id_container_post" class="card-container">
+		<h3 class="title-color pl-5 title-p" >Suas notas</h3>
+		<div class="my-card col-3 shadow offset-md-1">
+			<h6 class="my-card-title"><%= post['title'] %></h6>
+			<p class="my-card-text">id - <%= post['id'] %></p>
+			<p class="my-card-text"><%= post['description'] %></p>
+
+			<%= link_to '', "/destroy/#{post['id']}", method: :delete, confirm: 'tem certeza que deseja deletar esse post it?' ,class: "my-icon-card fas fa-times-circle my-card-close", :remote => true %>
+		</div>
+</div>

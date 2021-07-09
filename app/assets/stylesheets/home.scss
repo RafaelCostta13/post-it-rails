@@ -1,0 +1,70 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.btn-primary {
+	background-color: darkorange !important;
+	border-color: darkorange !important;
+}
+.btn-primary:hover {
+	background-color: orange !important;
+	border-color: orange !important;
+}
+
+
+.title-color {
+	color: #6959CD;
+}
+
+.title-p {
+	padding-left: 4rem !important;
+}
+
+.border-right-orange {
+	border-right: 3px solid darkorange; 	
+}
+
+.container-card {
+	heigth: 100%;
+}
+
+.my-card {
+	background-color: rgba(220,220,220, 0.4) ;
+	padding: 1rem;
+	padding-left: 2rem !important;
+	padding-right: 2rem !important;
+	border-radius: 5px;
+	margin-top: 2rem !important;
+	position: relative;
+}
+
+.my-icon-card{
+	position: absolute;
+	right: -0.5rem;
+	top: -0.5px;
+}
+.my-card-title {
+	color: #00CED1;
+	border-bottom: 1px dashed #A9A9A9;
+	padding-bottom:  .5rem;
+}
+.my-card-text {
+	font-size: .9rem;
+	color:#A9A9A9;
+}
+
+.my-card-close {
+	text-decoration: none !important;
+	color: #696969;
+}
+.my-card-close:hover {
+	color: darkorange;
+}
+
+.btn-slate {
+	background-color: #6959CD !important;
+	color: white !important;
+}
+.btn-slate:hover {
+	background-color: #836FFF !important;
+}
